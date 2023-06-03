@@ -56,3 +56,8 @@ class Festa {
         }
     }
 }
+
+public static void main(String[] args) {
+    Festa festa = new Festa('Fulano', 1200, 7200.0);
+    festa.mostra()
+}
