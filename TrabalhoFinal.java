@@ -34,9 +34,10 @@ class Festa {
     public void setCusto(double custo) {
         this.custo = custo;
     }
-}
     public void mostra() {
         System.out.println("Responsável: " + responsavel);
         System.out.println("Número de convidados: " + numConvidados);
         System.out.println("Custo: R$" + custo);
     }
+}
+    
