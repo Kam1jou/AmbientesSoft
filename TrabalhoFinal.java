@@ -39,5 +39,20 @@ class Festa {
         System.out.println("Número de convidados: " + numConvidados);
         System.out.println("Custo: R$" + custo);
     }
-}
     
+    public String getClassificacao() {
+        if (numConvidados < 300) {
+            if (custo < 15000) {
+                return "Festa junina";
+            } else {
+                return "Aniversário";
+            }
+        } else {
+            if (custo < 15000) {
+                return "Formatura";
+            } else {
+                return "Casamento";
+            }
+        }
+    }
+}
